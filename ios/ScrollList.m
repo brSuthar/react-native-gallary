@@ -6,12 +6,14 @@
 //
 
 #import "ScrollList.h"
+#import "card_input-Swift.h"
 
 @implementation ScrollList
 RCT_EXPORT_MODULE();
 #pragma mark - TableView
 - (UIView *)view {
-  return [[CollectionView alloc] init];
+
+  return  [[SwiftCollectionView alloc] init];
 }
 
 @end

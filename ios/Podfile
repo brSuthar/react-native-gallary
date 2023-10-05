@@ -48,6 +48,7 @@ target 'card_input' do
   target 'card_inputTests' do
     inherit! :complete
     # Pods for testing
+    # pod 'YPImagePicker'
   end
 
   post_install do |installer|

@@ -12,10 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		30178B062ACD67E5000404E6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30178B052ACD67E5000404E6 /* ActivityIndicator.swift */; };
+		30A3057D2AC2C47200E58F8E /* SwiftCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3057C2AC2C47200E58F8E /* SwiftCollectionView.swift */; };
+		30A305802AC2E8EE00E58F8E /* ImageCollecitonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3057F2AC2E8EE00E58F8E /* ImageCollecitonView.swift */; };
+		30BEA04C2AC40AFA00530D02 /* FetchAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BEA04B2AC40AFA00530D02 /* FetchAssets.swift */; };
+		30BEA04E2AC40C3F00530D02 /* SwiftCollectionViewModalObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BEA04D2AC40C3F00530D02 /* SwiftCollectionViewModalObj.swift */; };
 		7699B88040F8A987B510C191 /* libPods-card_input-card_inputTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-card_input-card_inputTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9D32A1AE2AC029C80086FE13 /* ScrollList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A1AD2AC029C80086FE13 /* ScrollList.m */; };
-		9D32A1AF2AC029C80086FE13 /* ScrollList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A1AD2AC029C80086FE13 /* ScrollList.m */; };
 		9D32A1B22AC0487B0086FE13 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A1B12AC0487B0086FE13 /* CustomTableViewCell.m */; };
 		9D32A1B32AC0487B0086FE13 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A1B12AC0487B0086FE13 /* CustomTableViewCell.m */; };
 		9DC7A0E72AC09615003DABEC /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7A0E62AC09615003DABEC /* CollectionView.m */; };
@@ -43,6 +47,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = card_input/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = card_input/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-card_input-card_inputTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-card_input-card_inputTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30178B052ACD67E5000404E6 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		30A3057A2AC2C47100E58F8E /* card_input-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "card_input-Bridging-Header.h"; sourceTree = "<group>"; };
+		30A3057B2AC2C47100E58F8E /* card_inputTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "card_inputTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30A3057C2AC2C47200E58F8E /* SwiftCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCollectionView.swift; sourceTree = "<group>"; };
+		30A3057F2AC2E8EE00E58F8E /* ImageCollecitonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollecitonView.swift; sourceTree = "<group>"; };
+		30BEA04B2AC40AFA00530D02 /* FetchAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAssets.swift; sourceTree = "<group>"; };
+		30BEA04D2AC40C3F00530D02 /* SwiftCollectionViewModalObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCollectionViewModalObj.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-card_input.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_input.debug.xcconfig"; path = "Target Support Files/Pods-card_input/Pods-card_input.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-card_input.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_input.release.xcconfig"; path = "Target Support Files/Pods-card_input/Pods-card_input.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-card_input-card_inputTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_input-card_inputTests.debug.xcconfig"; path = "Target Support Files/Pods-card_input-card_inputTests/Pods-card_input-card_inputTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,12 +115,13 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				9D32A1AC2AC029C80086FE13 /* ScrollList.h */,
-				9D32A1AD2AC029C80086FE13 /* ScrollList.m */,
 				9D32A1B02AC0487B0086FE13 /* CustomTableViewCell.h */,
 				9D32A1B12AC0487B0086FE13 /* CustomTableViewCell.m */,
 				9DC7A0E52AC09615003DABEC /* CollectionView.h */,
 				9DC7A0E62AC09615003DABEC /* CollectionView.m */,
+				30BEA04A2AC40ACA00530D02 /* ImageFiles */,
+				30A3057A2AC2C47100E58F8E /* card_input-Bridging-Header.h */,
+				30A3057B2AC2C47100E58F8E /* card_inputTests-Bridging-Header.h */,
 			);
 			name = card_input;
 			sourceTree = "<group>";
@@ -122,6 +134,20 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-card_input-card_inputTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30BEA04A2AC40ACA00530D02 /* ImageFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9D32A1AC2AC029C80086FE13 /* ScrollList.h */,
+				9D32A1AD2AC029C80086FE13 /* ScrollList.m */,
+				30A3057C2AC2C47200E58F8E /* SwiftCollectionView.swift */,
+				30A3057F2AC2E8EE00E58F8E /* ImageCollecitonView.swift */,
+				30BEA04B2AC40AFA00530D02 /* FetchAssets.swift */,
+				30BEA04D2AC40C3F00530D02 /* SwiftCollectionViewModalObj.swift */,
+				30178B052ACD67E5000404E6 /* ActivityIndicator.swift */,
+			);
+			name = ImageFiles;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -222,10 +248,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1430;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -422,7 +449,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D32A1AF2AC029C80086FE13 /* ScrollList.m in Sources */,
 				00E356F31AD99517003FC87E /* card_inputTests.m in Sources */,
 				9DC7A0E82AC09615003DABEC /* CollectionView.m in Sources */,
 				9D32A1B32AC0487B0086FE13 /* CustomTableViewCell.m in Sources */,
@@ -433,9 +459,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A3057D2AC2C47200E58F8E /* SwiftCollectionView.swift in Sources */,
+				30BEA04C2AC40AFA00530D02 /* FetchAssets.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				30BEA04E2AC40C3F00530D02 /* SwiftCollectionViewModalObj.swift in Sources */,
 				9D32A1AE2AC029C80086FE13 /* ScrollList.m in Sources */,
 				9DC7A0E72AC09615003DABEC /* CollectionView.m in Sources */,
+				30178B062ACD67E5000404E6 /* ActivityIndicator.swift in Sources */,
+				30A305802AC2E8EE00E58F8E /* ImageCollecitonView.swift in Sources */,
 				9D32A1B22AC0487B0086FE13 /* CustomTableViewCell.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -456,7 +487,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-card_input-card_inputTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -475,6 +508,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "card_inputTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/card_input.app/card_input";
 			};
 			name = Debug;
@@ -483,7 +519,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-card_input-card_inputTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = card_inputTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
@@ -499,6 +537,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "card_inputTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/card_input.app/card_input";
 			};
 			name = Release;
@@ -510,8 +550,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VGW836NJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = card_input/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,6 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = card_input;
+				SWIFT_OBJC_BRIDGING_HEADER = "card_input-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -537,7 +580,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7VGW836NJ;
 				INFOPLIST_FILE = card_input/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +595,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = card_input;
+				SWIFT_OBJC_BRIDGING_HEADER = "card_input-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
